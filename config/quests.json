@@ -1,0 +1,17 @@
+{
+  "_doc": "Repeatable quest templates. You always have 'active' quests. target = round(base + perRank*(rank-1)); 'earnCoins' targets scale with the next area's gate cost. xp = rank stars rewarded. coop quests are only offered while you are in a friends room.",
+  "active": 3,
+  "templates": [
+    { "id": "break", "type": "break", "label": "Break {n} breakables", "base": 40, "perRank": 12, "xp": 1, "gems": 10 },
+    { "id": "break_big", "type": "breakChest", "label": "Break {n} safes or chests", "base": 3, "perRank": 1, "xp": 2, "gems": 25 },
+    { "id": "hatch", "type": "hatch", "label": "Hatch {n} eggs", "base": 6, "perRank": 3, "xp": 1, "gems": 15 },
+    { "id": "hatch_epic", "type": "hatchEpic", "label": "Hatch {n} Epic or better pets", "base": 1, "perRank": 0.35, "xp": 2, "gems": 30, "minRank": 2 },
+    { "id": "earn", "type": "earnCoins", "label": "Earn {n} coins", "factor": 0.8, "xp": 1, "gems": 15 },
+    { "id": "unlock", "type": "unlockZone", "label": "Unlock {n} new area", "base": 1, "perRank": 0, "xp": 3, "gems": 40, "needsLockedZone": true },
+    { "id": "golden", "type": "makeGolden", "label": "Make {n} Golden pet", "base": 1, "perRank": 0.1, "xp": 3, "gems": 40, "minRank": 3 },
+    { "id": "boost", "type": "useBoost", "label": "Use {n} boost potion", "base": 1, "perRank": 0, "xp": 1, "gems": 10, "minRank": 4, "needsItem": true },
+    { "id": "boss", "type": "bossChest", "label": "Help destroy {n} Boss Chest", "base": 1, "perRank": 0, "xp": 3, "gems": 60, "minZone": 5 },
+    { "id": "coop", "type": "coopBreak", "label": "Break {n} breakables together with friends", "base": 15, "perRank": 4, "xp": 2, "gems": 35, "coop": true },
+    { "id": "tier_gems", "type": "earnGems", "label": "Collect {n} gems from breakables", "base": 10, "perRank": 6, "xp": 1, "gems": 15 }
+  ]
+}

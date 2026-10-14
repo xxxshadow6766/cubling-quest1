@@ -1,0 +1,130 @@
+{
+  "_doc": "Pet species. f=egg family (theme id) or 'secret'. r=rarity. c=[body, secondary/belly, ears, tail, accent, wings] colours. p=parts from assets.glb (pet_<part>): ears_cat, ears_bunny, ears_bear, ears_floppy, ears_mouse, horns, antenna, fin_top, leaf, horn_uni, crown, halo, snout, visor, shell, spots, belly, cheeks, tail_thin, tail_fluffy, tail_puff, tail_fin, tail_spike, tail_curly, wings. 'snout' replaces the mouth and 'visor' replaces the eyes. sc=[x,y,z] body scale. m=power multiplier (default 1).",
+  "species": [
+    { "id": "clover_pup", "name": "Clover Pup", "f": "meadow", "r": "common", "c": ["#f6d7a7", "#fff3df", "#c98f55", "#c98f55", "#7fd36a", "#fff"], "p": ["ears_floppy", "tail_thin", "belly", "cheeks"] },
+    { "id": "dandelion_bun", "name": "Dandelion Bun", "f": "meadow", "r": "rare", "c": ["#fff4a8", "#ffffff", "#fff4a8", "#ffffff", "#7fd36a", "#fff"], "p": ["ears_bunny", "tail_puff", "leaf", "cheeks"] },
+    { "id": "buzzle_bee", "name": "Buzzle Bee", "f": "meadow", "r": "epic", "c": ["#ffd23f", "#3b2b1a", "#3b2b1a", "#3b2b1a", "#3b2b1a", "#e8f8ff"], "p": ["antenna", "wings", "tail_spike", "spots", "cheeks"] },
+    { "id": "meadow_fawn", "name": "Meadow Fawn", "f": "meadow", "r": "legendary", "c": ["#d9955b", "#fff1dc", "#b8743f", "#fff1dc", "#f5e6c8", "#fff"], "p": ["ears_floppy", "horns", "spots", "tail_puff", "belly"], "sc": [0.95, 1.08, 0.95] },
+    { "id": "sunpetal_sprite", "name": "Sunpetal Sprite", "f": "meadow", "r": "mythic", "c": ["#ffe9f5", "#ffd34d", "#ff8ad0", "#ff8ad0", "#ffd34d", "#ffd6f0"], "p": ["leaf", "halo", "wings", "cheeks", "tail_fluffy"] },
+
+    { "id": "sandy_crabbit", "name": "Sandy Crabbit", "f": "beach", "r": "common", "c": ["#ff8a5c", "#ffd0b8", "#ff8a5c", "#ff8a5c", "#2a2438", "#fff"], "p": ["antenna", "belly", "cheeks"], "sc": [1.15, 0.85, 1] },
+    { "id": "shellby_turtle", "name": "Shellby Turtle", "f": "beach", "r": "rare", "c": ["#6cc28a", "#c7894a", "#6cc28a", "#6cc28a", "#c7894a", "#fff"], "p": ["shell", "tail_puff", "cheeks"] },
+    { "id": "coco_monkey", "name": "Coco Monkey", "f": "beach", "r": "epic", "c": ["#a8744f", "#f2d1a8", "#f2d1a8", "#a8744f", "#ffd34d", "#fff"], "p": ["ears_mouse", "tail_thin", "belly", "snout"] },
+    { "id": "surf_seal", "name": "Surf Seal", "f": "beach", "r": "legendary", "c": ["#9fb3c8", "#e6eef5", "#9fb3c8", "#7f93a8", "#ff8a5c", "#fff"], "p": ["tail_fin", "belly", "cheeks", "snout"], "sc": [1.08, 0.92, 1.05] },
+    { "id": "pearl_dolphin", "name": "Pearl Dolphin", "f": "beach", "r": "mythic", "c": ["#b9e4ff", "#ffffff", "#8fd0ff", "#8fd0ff", "#fff6e0", "#fff"], "p": ["fin_top", "tail_fin", "belly", "halo", "cheeks"] },
+
+    { "id": "dune_gecko", "name": "Dune Gecko", "f": "desert", "r": "common", "c": ["#e0b46a", "#f7dca0", "#e0b46a", "#e0b46a", "#c8743a", "#fff"], "p": ["tail_thin", "spots", "cheeks"] },
+    { "id": "fennec_pip", "name": "Fennec Pip", "f": "desert", "r": "rare", "c": ["#f0c78a", "#fff3dc", "#f0c78a", "#f0c78a", "#ffb8a0", "#fff"], "p": ["ears_cat", "tail_fluffy", "belly", "cheeks"] },
+    { "id": "cactopup", "name": "Cactopup", "f": "desert", "r": "epic", "c": ["#5fbf6a", "#ffffff", "#5fbf6a", "#5fbf6a", "#ff7ab8", "#fff"], "p": ["leaf", "spots", "ears_floppy", "tail_thin"] },
+    { "id": "scarab_sentinel", "name": "Scarab Sentinel", "f": "desert", "r": "legendary", "c": ["#3f7fcf", "#ffd34d", "#3f7fcf", "#3f7fcf", "#ffd34d", "#5fe0a0"], "p": ["horn_uni", "wings", "spots", "antenna"] },
+    { "id": "sphinx_cub", "name": "Sphinx Cub", "f": "desert", "r": "mythic", "c": ["#e8c46a", "#fff0c8", "#e8c46a", "#e8c46a", "#3f7fcf", "#fff"], "p": ["ears_cat", "crown", "tail_thin", "belly", "cheeks"] },
+
+    { "id": "gumdrop_bear", "name": "Gumdrop Bear", "f": "candy", "r": "common", "c": ["#ff6f91", "#ffb8c8", "#ff6f91", "#ff6f91", "#fff", "#fff"], "p": ["ears_bear", "tail_puff", "belly", "cheeks"] },
+    { "id": "marshmallow_bun", "name": "Marshmallow Bun", "f": "candy", "r": "rare", "c": ["#ffffff", "#ffd6ef", "#ffd6ef", "#ffffff", "#fff", "#fff"], "p": ["ears_bunny", "tail_puff", "cheeks"] },
+    { "id": "cupcake_cat", "name": "Cupcake Cat", "f": "candy", "r": "epic", "c": ["#ff9ecd", "#8a5a3c", "#ff9ecd", "#ff9ecd", "#ff3b5c", "#fff"], "p": ["ears_cat", "spots", "tail_thin", "cheeks", "belly"] },
+    { "id": "licorice_fox", "name": "Licorice Fox", "f": "candy", "r": "legendary", "c": ["#3a2a3a", "#ff4f7b", "#ff4f7b", "#ff4f7b", "#ff4f7b", "#fff"], "p": ["ears_cat", "tail_fluffy", "belly", "cheeks"] },
+    { "id": "swirl_unicorn", "name": "Swirl Unicorn", "f": "candy", "r": "mythic", "c": ["#fff0fb", "#ff9ecd", "#ffb8e0", "#ff7ab8", "#ffd34d", "#d6f0ff"], "p": ["horn_uni", "wings", "tail_fluffy", "ears_cat", "cheeks"] },
+
+    { "id": "frosty_penguin", "name": "Frosty Penguin", "f": "snow", "r": "common", "c": ["#2f3a56", "#ffffff", "#2f3a56", "#2f3a56", "#ff9a2e", "#fff"], "p": ["belly", "snout", "tail_puff"] },
+    { "id": "snow_hare", "name": "Snow Hare", "f": "snow", "r": "rare", "c": ["#f4f8ff", "#dbe8ff", "#f4f8ff", "#ffffff", "#7cc4ff", "#fff"], "p": ["ears_bunny", "tail_puff", "cheeks"] },
+    { "id": "polar_cub", "name": "Polar Cub", "f": "snow", "r": "epic", "c": ["#f7f9ff", "#e0e8f5", "#f7f9ff", "#f7f9ff", "#7cc4ff", "#fff"], "p": ["ears_bear", "snout", "tail_puff", "cheeks"] },
+    { "id": "yeti_pal", "name": "Yeti Pal", "f": "snow", "r": "legendary", "c": ["#cfe3ff", "#8fb3e8", "#cfe3ff", "#cfe3ff", "#eaf4ff", "#fff"], "p": ["horns", "belly", "cheeks", "tail_puff"], "sc": [1.05, 1.1, 1.05] },
+    { "id": "glacier_wyrm", "name": "Glacier Wyrm", "f": "snow", "r": "mythic", "c": ["#8fe3ff", "#eaffff", "#5ab0ff", "#5ab0ff", "#ffffff", "#c8f4ff"], "p": ["horns", "wings", "tail_spike", "belly", "fin_top"] },
+
+    { "id": "ember_imp", "name": "Ember Imp", "f": "volcano", "r": "common", "c": ["#ff5b3a", "#ffb08a", "#3a2020", "#3a2020", "#3a2020", "#fff"], "p": ["horns", "tail_spike", "cheeks"] },
+    { "id": "lava_slime", "name": "Lava Slime", "f": "volcano", "r": "rare", "c": ["#ff8a2a", "#ffe066", "#ff8a2a", "#ff8a2a", "#ffe066", "#fff"], "p": ["belly", "spots", "cheeks"], "sc": [1.1, 0.85, 1.1] },
+    { "id": "magma_hound", "name": "Magma Hound", "f": "volcano", "r": "epic", "c": ["#3a2a2a", "#ff6a2a", "#ff6a2a", "#ff6a2a", "#ffcf4a", "#fff"], "p": ["ears_floppy", "tail_fluffy", "spots", "belly"] },
+    { "id": "phoenix_chick", "name": "Phoenix Chick", "f": "volcano", "r": "legendary", "c": ["#ff7a1a", "#ffd04a", "#ffd04a", "#ff3a2a", "#ffd04a", "#ffd04a"], "p": ["wings", "tail_fluffy", "crown", "belly"] },
+    { "id": "obsidian_dragon", "name": "Obsidian Dragon", "f": "volcano", "r": "mythic", "c": ["#2a2033", "#ff5b2a", "#2a2033", "#2a2033", "#ff5b2a", "#ff5b2a"], "p": ["horns", "wings", "tail_spike", "belly", "fin_top"] },
+
+    { "id": "leafy_frog", "name": "Leafy Frog", "f": "jungle", "r": "common", "c": ["#7ed957", "#e8ffc8", "#7ed957", "#7ed957", "#ff7a9a", "#fff"], "p": ["belly", "leaf", "cheeks"], "sc": [1.1, 0.9, 1] },
+    { "id": "toucan_tot", "name": "Toucan Tot", "f": "jungle", "r": "rare", "c": ["#2b2b3a", "#ff9a2e", "#2b2b3a", "#2b2b3a", "#ffd23f", "#2b2b3a"], "p": ["snout", "wings", "tail_fin"] },
+    { "id": "jungle_tiger", "name": "Jungle Tiger", "f": "jungle", "r": "epic", "c": ["#ff9f3a", "#2b2238", "#ff9f3a", "#ff9f3a", "#ffffff", "#fff"], "p": ["ears_cat", "spots", "tail_thin", "cheeks"] },
+    { "id": "jaguar_shade", "name": "Jaguar Shade", "f": "jungle", "r": "legendary", "c": ["#3a3550", "#ffd04a", "#3a3550", "#3a3550", "#ffd04a", "#fff"], "p": ["ears_cat", "spots", "tail_thin", "belly"] },
+    { "id": "emerald_serpent", "name": "Emerald Serpent", "f": "jungle", "r": "mythic", "c": ["#2ecc71", "#ffe066", "#2ecc71", "#1f9f5a", "#ffd23f", "#fff"], "p": ["crown", "tail_spike", "belly", "fin_top"], "sc": [0.9, 1.15, 0.9] },
+
+    { "id": "bubble_fish", "name": "Bubble Fish", "f": "reef", "r": "common", "c": ["#ffb347", "#ffffff", "#ffb347", "#ff8a2a", "#fff", "#fff"], "p": ["fin_top", "tail_fin", "cheeks"] },
+    { "id": "jelly_puff", "name": "Jelly Puff", "f": "reef", "r": "rare", "c": ["#ff9ff3", "#ffd6fa", "#ff9ff3", "#ff9ff3", "#ffe8ff", "#fff"], "p": ["antenna", "halo", "cheeks"] },
+    { "id": "octo_cub", "name": "Octo Cub", "f": "reef", "r": "epic", "c": ["#a066ff", "#e0c8ff", "#a066ff", "#a066ff", "#e0c8ff", "#fff"], "p": ["spots", "belly", "cheeks"], "sc": [1, 1.12, 1] },
+    { "id": "hammerhead_hero", "name": "Hammerhead Hero", "f": "reef", "r": "legendary", "c": ["#7f9cb8", "#e6eef5", "#7f9cb8", "#7f9cb8", "#56f0ff", "#fff"], "p": ["fin_top", "tail_fin", "belly", "ears_mouse"], "sc": [1.15, 0.95, 1] },
+    { "id": "kraken_king", "name": "Kraken King", "f": "reef", "r": "mythic", "c": ["#5b2c83", "#ff7f6e", "#5b2c83", "#5b2c83", "#ff7f6e", "#fff"], "p": ["crown", "antenna", "spots", "belly"] },
+
+    { "id": "puffy_lamb", "name": "Puffy Lamb", "f": "cloud", "r": "common", "c": ["#fffbf2", "#ffe6c8", "#3a3040", "#fffbf2", "#fff", "#fff"], "p": ["ears_floppy", "tail_curly", "cheeks"] },
+    { "id": "cloud_kitty", "name": "Cloud Kitty", "f": "cloud", "r": "rare", "c": ["#e8f3ff", "#ffffff", "#e8f3ff", "#e8f3ff", "#ffd34d", "#ffffff"], "p": ["ears_cat", "wings", "tail_thin", "cheeks"] },
+    { "id": "sky_owl", "name": "Sky Owl", "f": "cloud", "r": "epic", "c": ["#c9a27e", "#fff1dc", "#c9a27e", "#c9a27e", "#ffd34d", "#a8825e"], "p": ["ears_cat", "wings", "belly", "snout"] },
+    { "id": "storm_griffin", "name": "Storm Griffin", "f": "cloud", "r": "legendary", "c": ["#ffd56b", "#ffffff", "#ffd56b", "#c8a04a", "#6ab0ff", "#ffffff"], "p": ["wings", "ears_cat", "tail_fluffy", "belly"] },
+    { "id": "seraph_pegasus", "name": "Seraph Pegasus", "f": "cloud", "r": "mythic", "c": ["#ffffff", "#ffe8a8", "#ffffff", "#ffe08a", "#ffd34d", "#fff4c8"], "p": ["wings", "halo", "horn_uni", "tail_fluffy", "cheeks"] },
+
+    { "id": "boo_blob", "name": "Boo Blob", "f": "haunted", "r": "common", "c": ["#f2f2ff", "#d8d8f0", "#f2f2ff", "#f2f2ff", "#a066ff", "#fff"], "p": ["cheeks", "tail_puff"], "sc": [1, 1.1, 1] },
+    { "id": "bat_pip", "name": "Bat Pip", "f": "haunted", "r": "rare", "c": ["#4a3a5a", "#8a7aa0", "#4a3a5a", "#4a3a5a", "#ff5a7a", "#3a2a4a"], "p": ["ears_cat", "wings", "cheeks"] },
+    { "id": "pumpkin_pup", "name": "Pumpkin Pup", "f": "haunted", "r": "epic", "c": ["#ff9a2e", "#ffd08a", "#c86a1a", "#c86a1a", "#4caf50", "#fff"], "p": ["leaf", "ears_floppy", "tail_thin", "cheeks"] },
+    { "id": "wraith_cat", "name": "Wraith Cat", "f": "haunted", "r": "legendary", "c": ["#2f2a45", "#a066ff", "#2f2a45", "#2f2a45", "#c8ff5a", "#fff"], "p": ["ears_cat", "tail_thin", "halo", "belly"] },
+    { "id": "lich_lord", "name": "Lich Lord", "f": "haunted", "r": "mythic", "c": ["#6c5ba7", "#c8ff5a", "#6c5ba7", "#6c5ba7", "#c8ff5a", "#3a2a5a"], "p": ["crown", "horns", "wings", "belly"] },
+
+    { "id": "mossy_snail", "name": "Mossy Snail", "f": "mushroom", "r": "common", "c": ["#c8b8a0", "#6aa87a", "#c8b8a0", "#c8b8a0", "#6aa87a", "#fff"], "p": ["shell", "antenna", "cheeks"] },
+    { "id": "toadstool_toad", "name": "Toadstool Toad", "f": "mushroom", "r": "rare", "c": ["#d84d4d", "#ffffff", "#d84d4d", "#d84d4d", "#fff", "#fff"], "p": ["spots", "belly", "cheeks"], "sc": [1.1, 0.9, 1] },
+    { "id": "glow_moth", "name": "Glow Moth", "f": "mushroom", "r": "epic", "c": ["#e8e0ff", "#b88aff", "#b88aff", "#e8e0ff", "#c8ff5a", "#c8b8ff"], "p": ["antenna", "wings", "belly", "cheeks"] },
+    { "id": "truffle_boar", "name": "Truffle Boar", "f": "mushroom", "r": "legendary", "c": ["#8a5a3c", "#d8b090", "#8a5a3c", "#8a5a3c", "#fff6e0", "#fff"], "p": ["snout", "horns", "ears_floppy", "tail_curly"] },
+    { "id": "myco_monarch", "name": "Myco Monarch", "f": "mushroom", "r": "mythic", "c": ["#ff5a5a", "#ffffff", "#ff5a5a", "#ff5a5a", "#ffd23f", "#fff"], "p": ["crown", "spots", "leaf", "belly", "cheeks"] },
+
+    { "id": "pebble_golem", "name": "Pebble Golem", "f": "crystal", "r": "common", "c": ["#9aa0ad", "#c8ccd8", "#9aa0ad", "#9aa0ad", "#9b8cff", "#fff"], "p": ["spots", "belly"] },
+    { "id": "quartz_fox", "name": "Quartz Fox", "f": "crystal", "r": "rare", "c": ["#f2e9ff", "#c8b8ff", "#c8b8ff", "#f2e9ff", "#9b8cff", "#fff"], "p": ["ears_cat", "tail_fluffy", "cheeks"] },
+    { "id": "amethyst_bat", "name": "Amethyst Bat", "f": "crystal", "r": "epic", "c": ["#8a5ad8", "#d8b8ff", "#8a5ad8", "#8a5ad8", "#5ae0ff", "#6a3ab8"], "p": ["ears_cat", "wings", "belly", "cheeks"] },
+    { "id": "prism_stag", "name": "Prism Stag", "f": "crystal", "r": "legendary", "c": ["#c8f0ff", "#ffffff", "#c8f0ff", "#c8f0ff", "#ff8ad0", "#fff"], "p": ["horns", "halo", "ears_floppy", "tail_puff"] },
+    { "id": "diamond_drake", "name": "Diamond Drake", "f": "crystal", "r": "mythic", "c": ["#5ae0ff", "#ffffff", "#5ae0ff", "#5ae0ff", "#ffffff", "#d8f8ff"], "p": ["horns", "wings", "tail_spike", "fin_top", "belly"] },
+
+    { "id": "acorn_squirrel", "name": "Acorn Squirrel", "f": "autumn", "r": "common", "c": ["#c86a2a", "#ffe0b8", "#c86a2a", "#e08a3a", "#8a5a3c", "#fff"], "p": ["ears_mouse", "tail_fluffy", "belly", "cheeks"] },
+    { "id": "maple_fox", "name": "Maple Fox", "f": "autumn", "r": "rare", "c": ["#ff7a2a", "#fff1dc", "#ff7a2a", "#ff7a2a", "#e04a2a", "#fff"], "p": ["ears_cat", "tail_fluffy", "belly", "cheeks"] },
+    { "id": "hedgehog_hug", "name": "Hedgehog Hug", "f": "autumn", "r": "epic", "c": ["#8a6a4a", "#ffe0c0", "#8a6a4a", "#8a6a4a", "#5a3a2a", "#fff"], "p": ["spots", "belly", "snout", "ears_mouse"] },
+    { "id": "harvest_owl", "name": "Harvest Owl", "f": "autumn", "r": "legendary", "c": ["#a86a3a", "#ffd8a8", "#a86a3a", "#a86a3a", "#ffc23a", "#c8843a"], "p": ["ears_cat", "wings", "belly", "snout"] },
+    { "id": "oakheart_elk", "name": "Oakheart Elk", "f": "autumn", "r": "mythic", "c": ["#8a5a3c", "#ffd8a8", "#6a4028", "#8a5a3c", "#ffc23a", "#fff"], "p": ["horns", "crown", "leaf", "tail_puff", "belly"] },
+
+    { "id": "bamboo_panda", "name": "Bamboo Panda", "f": "sakura", "r": "common", "c": ["#ffffff", "#2a2438", "#2a2438", "#2a2438", "#6abf5a", "#fff"], "p": ["ears_bear", "spots", "tail_puff", "cheeks"] },
+    { "id": "koi_splash", "name": "Koi Splash", "f": "sakura", "r": "rare", "c": ["#ffffff", "#ff6a3a", "#ff6a3a", "#ff6a3a", "#fff", "#fff"], "p": ["fin_top", "tail_fin", "spots"] },
+    { "id": "blossom_fox", "name": "Blossom Fox", "f": "sakura", "r": "epic", "c": ["#ffd0e8", "#ffffff", "#ff8ab0", "#ff8ab0", "#6abf5a", "#fff"], "p": ["ears_cat", "tail_fluffy", "leaf", "cheeks"] },
+    { "id": "lantern_tanuki", "name": "Lantern Tanuki", "f": "sakura", "r": "legendary", "c": ["#a8825e", "#3a3040", "#3a3040", "#a8825e", "#ff6a5a", "#fff"], "p": ["ears_bear", "tail_fluffy", "spots", "belly"] },
+    { "id": "kitsune_spirit", "name": "Kitsune Spirit", "f": "sakura", "r": "mythic", "c": ["#fff6fa", "#ff8ab0", "#ff8ab0", "#ffffff", "#ff4f7b", "#fff"], "p": ["ears_cat", "tail_fluffy", "halo", "cheeks", "belly"] },
+
+    { "id": "bog_frog", "name": "Bog Frog", "f": "swamp", "r": "common", "c": ["#6a8a3a", "#c8d88a", "#6a8a3a", "#6a8a3a", "#c8ff5a", "#fff"], "p": ["belly", "spots", "cheeks"], "sc": [1.1, 0.88, 1] },
+    { "id": "mud_gator", "name": "Mud Gator", "f": "swamp", "r": "rare", "c": ["#4a6a3a", "#c8d8a0", "#4a6a3a", "#4a6a3a", "#fff", "#fff"], "p": ["snout", "tail_spike", "fin_top", "belly"], "sc": [1.1, 0.9, 1.1] },
+    { "id": "firefly_flit", "name": "Firefly Flit", "f": "swamp", "r": "epic", "c": ["#3a3a2a", "#c8ff5a", "#3a3a2a", "#c8ff5a", "#c8ff5a", "#e8ffe0"], "p": ["antenna", "wings", "tail_puff", "belly"] },
+    { "id": "swamp_hydra", "name": "Swamp Hydra", "f": "swamp", "r": "legendary", "c": ["#3a7a5a", "#c8ff5a", "#3a7a5a", "#3a7a5a", "#c8ff5a", "#fff"], "p": ["horns", "fin_top", "tail_spike", "belly"] },
+    { "id": "bayou_witch_cat", "name": "Bayou Witch Cat", "f": "swamp", "r": "mythic", "c": ["#2a2a3a", "#a066ff", "#2a2a3a", "#2a2a3a", "#c8ff5a", "#fff"], "p": ["ears_cat", "halo", "tail_thin", "belly", "cheeks"] },
+
+    { "id": "windup_mouse", "name": "Wind-up Mouse", "f": "toy", "r": "common", "c": ["#b8c0d0", "#ffd0e0", "#ffd0e0", "#8a93a7", "#ffd23f", "#fff"], "p": ["ears_mouse", "tail_curly", "cheeks"] },
+    { "id": "teddy_buddy", "name": "Teddy Buddy", "f": "toy", "r": "rare", "c": ["#c8843a", "#ffe0b8", "#c8843a", "#c8843a", "#ff5a5a", "#fff"], "p": ["ears_bear", "belly", "snout", "spots"] },
+    { "id": "robo_pup", "name": "Robo Pup", "f": "toy", "r": "epic", "c": ["#c8d0e0", "#4fa3ff", "#4fa3ff", "#8a93a7", "#ff5a5a", "#fff"], "p": ["antenna", "visor", "ears_floppy", "tail_spike"] },
+    { "id": "rocking_pony", "name": "Rocking Pony", "f": "toy", "r": "legendary", "c": ["#ff5a5a", "#ffffff", "#ff5a5a", "#ffd23f", "#ffd23f", "#fff"], "p": ["ears_cat", "tail_fluffy", "spots", "belly"] },
+    { "id": "tin_soldier_rex", "name": "Tin Soldier Rex", "f": "toy", "r": "mythic", "c": ["#4fa3ff", "#ffd23f", "#4fa3ff", "#4fa3ff", "#ffd23f", "#fff"], "p": ["crown", "tail_spike", "horns", "belly"] },
+
+    { "id": "cog_beetle", "name": "Cog Beetle", "f": "clockwork", "r": "common", "c": ["#c79a52", "#6a5040", "#6a5040", "#6a5040", "#ffcf6a", "#fff"], "p": ["antenna", "spots", "belly"] },
+    { "id": "brass_owl", "name": "Brass Owl", "f": "clockwork", "r": "rare", "c": ["#d8b070", "#fff0c8", "#d8b070", "#d8b070", "#56f0ff", "#c79a52"], "p": ["ears_cat", "wings", "belly"] },
+    { "id": "steam_pup", "name": "Steam Pup", "f": "clockwork", "r": "epic", "c": ["#8a93a7", "#c79a52", "#c79a52", "#8a93a7", "#ffcf6a", "#fff"], "p": ["ears_floppy", "visor", "tail_thin", "antenna"] },
+    { "id": "gearwing_falcon", "name": "Gearwing Falcon", "f": "clockwork", "r": "legendary", "c": ["#a86a3a", "#ffe0b8", "#a86a3a", "#a86a3a", "#ffd23f", "#c79a52"], "p": ["wings", "crown", "snout", "tail_fin"] },
+    { "id": "chrono_dragon", "name": "Chrono Dragon", "f": "clockwork", "r": "mythic", "c": ["#3a5a7a", "#ffcf6a", "#c79a52", "#3a5a7a", "#ffcf6a", "#c79a52"], "p": ["horns", "wings", "halo", "tail_spike", "belly"] },
+
+    { "id": "pixel_cat", "name": "Pixel Cat", "f": "cyber", "r": "common", "c": ["#5a6aff", "#3fe8ff", "#5a6aff", "#5a6aff", "#3fe8ff", "#fff"], "p": ["ears_cat", "tail_thin", "cheeks"] },
+    { "id": "neon_bunny", "name": "Neon Bunny", "f": "cyber", "r": "rare", "c": ["#ff3fd8", "#ffd0f8", "#ff3fd8", "#ffffff", "#3fe8ff", "#fff"], "p": ["ears_bunny", "tail_puff", "visor"] },
+    { "id": "cyber_shiba", "name": "Cyber Shiba", "f": "cyber", "r": "epic", "c": ["#ffb35a", "#ffffff", "#ffb35a", "#ffb35a", "#3fe8ff", "#fff"], "p": ["ears_cat", "visor", "antenna", "tail_curly"] },
+    { "id": "mecha_rex", "name": "Mecha Rex", "f": "cyber", "r": "legendary", "c": ["#3a3f6a", "#3fe8ff", "#3a3f6a", "#3a3f6a", "#ff3fd8", "#fff"], "p": ["horns", "tail_spike", "visor", "fin_top"] },
+    { "id": "glitch_phantom", "name": "Glitch Phantom", "f": "cyber", "r": "mythic", "c": ["#1a1a3a", "#3fe8ff", "#ff3fd8", "#1a1a3a", "#3fe8ff", "#ff3fd8"], "p": ["halo", "antenna", "visor", "wings"] },
+
+    { "id": "moon_moth", "name": "Moon Moth", "f": "aurora", "r": "common", "c": ["#d8e8ff", "#b88aff", "#b88aff", "#d8e8ff", "#6ae0c8", "#c8f0e8"], "p": ["antenna", "wings", "cheeks"] },
+    { "id": "arctic_fox", "name": "Arctic Fox", "f": "aurora", "r": "rare", "c": ["#f4fbff", "#c8e8ff", "#f4fbff", "#f4fbff", "#6ae0c8", "#fff"], "p": ["ears_cat", "tail_fluffy", "cheeks"] },
+    { "id": "starlight_seal", "name": "Starlight Seal", "f": "aurora", "r": "epic", "c": ["#6a7ab8", "#e0e8ff", "#6a7ab8", "#5a6aa8", "#ffe08a", "#fff"], "p": ["tail_fin", "belly", "snout", "spots"] },
+    { "id": "aurora_wolf", "name": "Aurora Wolf", "f": "aurora", "r": "legendary", "c": ["#3a5a7a", "#6ae0c8", "#6ae0c8", "#6ae0c8", "#b88aff", "#fff"], "p": ["ears_cat", "tail_fluffy", "belly", "halo"] },
+    { "id": "borealis_whale", "name": "Borealis Whale", "f": "aurora", "r": "mythic", "c": ["#2a4a8a", "#6ae0c8", "#2a4a8a", "#2a4a8a", "#b88aff", "#fff"], "p": ["fin_top", "tail_fin", "belly", "crown"], "sc": [1.15, 1, 1.1] },
+
+    { "id": "astro_pup", "name": "Astro Pup", "f": "space", "r": "common", "c": ["#ffffff", "#ff6ad8", "#c8c8e0", "#ffffff", "#56f0ff", "#fff"], "p": ["visor", "ears_floppy", "antenna", "tail_thin"] },
+    { "id": "alien_blob", "name": "Alien Blob", "f": "space", "r": "rare", "c": ["#7aff8a", "#c8ffd0", "#7aff8a", "#7aff8a", "#ff6ad8", "#fff"], "p": ["antenna", "spots", "cheeks"], "sc": [1.05, 1.05, 1.05] },
+    { "id": "comet_cat", "name": "Comet Cat", "f": "space", "r": "epic", "c": ["#2a2a5a", "#ffd23f", "#2a2a5a", "#ffd23f", "#ffd23f", "#fff"], "p": ["ears_cat", "tail_spike", "halo", "spots"] },
+    { "id": "nebula_narwhal", "name": "Nebula Narwhal", "f": "space", "r": "legendary", "c": ["#8a5ad8", "#ff9ae8", "#8a5ad8", "#8a5ad8", "#ffffff", "#fff"], "p": ["horn_uni", "tail_fin", "fin_top", "spots"] },
+    { "id": "galaxy_guardian", "name": "Galaxy Guardian", "f": "space", "r": "mythic", "c": ["#1a1a4a", "#ff6ad8", "#56f0ff", "#1a1a4a", "#ffd23f", "#56f0ff"], "p": ["crown", "halo", "wings", "tail_fluffy", "belly"] },
+
+    { "id": "prismatic_cubling", "name": "Prismatic Cubling", "f": "secret", "r": "secret", "c": ["#ffffff", "#ff8ad0", "#56f0ff", "#ffd23f", "#ffd23f", "#e8f8ff"], "p": ["halo", "wings", "ears_cat", "tail_fluffy", "cheeks", "crown"] },
+    { "id": "void_kitten", "name": "Void Kitten", "f": "secret", "r": "secret", "c": ["#0f0a1f", "#7c5cff", "#0f0a1f", "#0f0a1f", "#ff3fd8", "#7c5cff"], "p": ["ears_cat", "tail_thin", "halo", "wings"] },
+    { "id": "gilded_gobbler", "name": "Gilded Gobbler", "f": "secret", "r": "secret", "c": ["#ffd23f", "#fff6c8", "#ffb32a", "#ffb32a", "#ff3b6b", "#fff"], "p": ["crown", "snout", "tail_curly", "ears_floppy", "belly"] },
+    { "id": "cosmic_kraken", "name": "Cosmic Kraken", "f": "secret", "r": "secret", "c": ["#2a1a5a", "#56f0ff", "#2a1a5a", "#2a1a5a", "#56f0ff", "#fff"], "p": ["crown", "antenna", "spots", "halo"] },
+    { "id": "celestial_dragon", "name": "Celestial Dragon", "f": "secret", "r": "secret", "c": ["#fff8e0", "#ffd23f", "#ffd23f", "#fff8e0", "#ff8ad0", "#ffe8a8"], "p": ["horns", "wings", "halo", "tail_spike", "fin_top", "belly"] }
+  ]
+}

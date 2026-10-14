@@ -1,0 +1,15 @@
+{
+  "_doc": "Rebirth milestones. Rebirth N requires the listed area. After the milestones, 'repeatable' applies to every further rebirth. Multipliers stack multiplicatively.",
+  "resets": ["Coins", "Unlocked areas (you return to the Town and Area 1)", "Coin upgrades (Pet Strength, Coin Magnet, Walk Speed)"],
+  "keeps": ["All pets (including Huge, Golden, Rainbow, Shiny)", "Gems", "Gem upgrades (Luck, Hatch Speed, Pet Slots, Storage, Gem Finder)", "Hatch unlocks", "Items, boosts and enchant books", "Rank, quests, achievements and pet index"],
+  "milestones": [
+    { "n": 1, "requiresZone": 25, "title": "Rebirth I — Fresh Start", "coinMult": 1.5, "damageMult": 1, "luckMult": 1, "slots": 1, "enchantSlots": 0, "gems": 500, "unlock": "autoHatch",
+      "desc": "×1.5 coins forever, +1 pet slot, Auto Hatch unlocked, 500 gems." },
+    { "n": 2, "requiresZone": 50, "title": "Rebirth II — Power Surge", "coinMult": 1, "damageMult": 2, "luckMult": 1, "slots": 0, "enchantSlots": 1, "gems": 2000, "unlock": "octoHatch",
+      "desc": "×2 pet damage forever, +1 enchant slot, Octo Hatch unlocked, 2,000 gems." },
+    { "n": 3, "requiresZone": 75, "title": "Rebirth III — Fortune's Favour", "coinMult": 1.5, "damageMult": 1, "luckMult": 2, "slots": 2, "enchantSlots": 0, "gems": 6000, "unlock": null,
+      "desc": "×2 hatch luck, ×1.5 coins forever, +2 pet slots, 6,000 gems." }
+  ],
+  "repeatable": { "requiresZone": 99, "coinMult": 1.25, "damageMult": 1.25, "luckMult": 1, "slots": 0, "enchantSlots": 0, "gems": 10000,
+    "desc": "Each further rebirth: ×1.25 coins and ×1.25 damage forever, 10,000 gems." }
+}

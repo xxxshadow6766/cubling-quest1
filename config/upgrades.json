@@ -1,0 +1,18 @@
+{
+  "_doc": "Upgrades bought at the Upgrade Station. currency 'coins' upgrades RESET on rebirth; 'gems' upgrades are permanent. cost(level) = base * growth^level unless an explicit 'costs' list is given. 'per' is the effect per level.",
+  "upgrades": [
+    { "id": "damage", "name": "Pet Strength", "icon": "💪", "currency": "coins", "max": 30, "base": 150, "growth": 2.6, "per": 0.12, "desc": "+12% damage for all your pets per level." },
+    { "id": "coins", "name": "Coin Magnet", "icon": "🧲", "currency": "coins", "max": 30, "base": 200, "growth": 2.6, "per": 0.1, "desc": "+10% coins from every breakable per level." },
+    { "id": "speed", "name": "Walk Speed", "icon": "👟", "currency": "coins", "max": 10, "base": 100, "growth": 3.2, "per": 0.06, "desc": "+6% walking speed per level." },
+    { "id": "luck", "name": "Hatch Luck", "icon": "🍀", "currency": "gems", "max": 20, "base": 25, "growth": 1.35, "per": 0.08, "desc": "+8% chance for Epic, Legendary and Mythic pets per level (multiplies their odds)." },
+    { "id": "hatchSpeed", "name": "Hatch Speed", "icon": "⚡", "currency": "gems", "max": 10, "base": 30, "growth": 1.45, "per": 0.06, "desc": "Eggs hatch 6% faster per level (shorter cooldown between hatches)." },
+    { "id": "slots", "name": "Pet Slots", "icon": "🐾", "currency": "gems", "max": 5, "costs": [60, 180, 450, 1100, 2600], "per": 1, "desc": "+1 equipped pet slot per level." },
+    { "id": "inventory", "name": "Pet Storage", "icon": "🎒", "currency": "gems", "max": 10, "base": 40, "growth": 1.5, "per": 40, "desc": "+40 pet inventory capacity per level." },
+    { "id": "gemFind", "name": "Gem Finder", "icon": "💎", "currency": "gems", "max": 15, "base": 40, "growth": 1.4, "per": 0.08, "desc": "+8% gems from breakables per level." }
+  ],
+  "unlocks": [
+    { "id": "tripleHatch", "name": "Triple Hatch", "icon": "🥚", "cost": 120, "desc": "Hatch 3 eggs at once." },
+    { "id": "autoHatch", "name": "Auto Hatch", "icon": "🔁", "cost": 600, "desc": "Automatically keep hatching the egg you are standing at. (Free with your first Rebirth.)" },
+    { "id": "octoHatch", "name": "Octo Hatch", "icon": "🐙", "cost": 2500, "desc": "Hatch 8 eggs at once. Requires Triple Hatch. (Free with your second Rebirth.)", "requires": "tripleHatch" }
+  ]
+}

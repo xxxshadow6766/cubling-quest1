@@ -1,0 +1,25 @@
+{
+  "_doc": "20 egg families, one per theme. Each family has 5 progressively stronger versions (tiers): zone N sells family floor((N-1)/5) at tier (N-1)%5. Tier names and odds are in balance.json (eggTierNames, eggOdds). Pets hatched from higher tiers have more power (power scales with the egg's zone).",
+  "families": [
+    { "id": "meadow", "name": "Meadow Egg", "shell": "#fff6d8", "spot": "#8fe36f" },
+    { "id": "beach", "name": "Seashell Egg", "shell": "#ffe9c4", "spot": "#5fd6ff" },
+    { "id": "desert", "name": "Dune Egg", "shell": "#f7d08a", "spot": "#c8743a" },
+    { "id": "candy", "name": "Candy Egg", "shell": "#ffd6ef", "spot": "#ff4f7b" },
+    { "id": "snow", "name": "Frost Egg", "shell": "#eef8ff", "spot": "#7cc4ff" },
+    { "id": "volcano", "name": "Magma Egg", "shell": "#4a3a3a", "spot": "#ff6a2a" },
+    { "id": "jungle", "name": "Jungle Egg", "shell": "#9be07a", "spot": "#3f8a3a" },
+    { "id": "reef", "name": "Coral Egg", "shell": "#8fe0ff", "spot": "#ff7f6e" },
+    { "id": "cloud", "name": "Cloud Egg", "shell": "#ffffff", "spot": "#ffd34d" },
+    { "id": "haunted", "name": "Spooky Egg", "shell": "#5a4a7a", "spot": "#c8ff5a" },
+    { "id": "mushroom", "name": "Spore Egg", "shell": "#ff7a7a", "spot": "#ffffff" },
+    { "id": "crystal", "name": "Crystal Egg", "shell": "#c8b8ff", "spot": "#5ae0ff" },
+    { "id": "autumn", "name": "Harvest Egg", "shell": "#ffb05a", "spot": "#a0522d" },
+    { "id": "sakura", "name": "Blossom Egg", "shell": "#ffe0ef", "spot": "#ff8ab0" },
+    { "id": "swamp", "name": "Bog Egg", "shell": "#7a8a4a", "spot": "#c8ff5a" },
+    { "id": "toy", "name": "Toy Egg", "shell": "#4fa3ff", "spot": "#ffd23f" },
+    { "id": "clockwork", "name": "Cog Egg", "shell": "#d8b070", "spot": "#6a5040" },
+    { "id": "cyber", "name": "Neon Egg", "shell": "#2a2f4a", "spot": "#3fe8ff" },
+    { "id": "aurora", "name": "Aurora Egg", "shell": "#b8f0e8", "spot": "#b88aff" },
+    { "id": "space", "name": "Cosmic Egg", "shell": "#1a1a3a", "spot": "#ff6ad8" }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "_doc": "Consumable boost potions. Using one adds 'duration' seconds to that boost (max 'maxStack' seconds). dropTable weights decide which potion drops from breakables.",
+  "maxStackSec": 7200,
+  "boosts": [
+    { "id": "boost_coins", "name": "Coin Potion", "icon": "🪙", "effect": "coins", "mult": 2, "duration": 600, "desc": "2× coins for 10 minutes." },
+    { "id": "boost_damage", "name": "Strength Potion", "icon": "💪", "effect": "damage", "mult": 1.5, "duration": 600, "desc": "1.5× pet damage for 10 minutes." },
+    { "id": "boost_luck", "name": "Lucky Potion", "icon": "🍀", "effect": "luck", "mult": 2, "duration": 600, "desc": "2× hatch luck for 10 minutes." },
+    { "id": "boost_gems", "name": "Gem Potion", "icon": "💎", "effect": "gems", "mult": 2, "duration": 600, "desc": "2× gems for 10 minutes." }
+  ],
+  "dropTable": [
+    { "id": "boost_coins", "w": 35 },
+    { "id": "boost_damage", "w": 30 },
+    { "id": "boost_luck", "w": 20 },
+    { "id": "boost_gems", "w": 15 }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "_doc": "Core balancing values. All zone-scaled values are multiplied by zoneGrowth^(zone-1). Edit freely; server restart applies changes.",
+  "zoneCount": 99,
+  "zoneLength": 70,
+  "zoneWidth": 64,
+  "zonesPerTheme": 5,
+
+  "zoneGrowth": 1.5,
+  "gateCostBase": 250,
+  "gateCostGrowth": 1.55,
+  "eggCostBase": 40,
+  "eggCostGrowth": 1.53,
+  "gemZoneScale": 0.06,
+
+  "rarities": ["common", "rare", "epic", "legendary", "mythic", "secret"],
+  "rarityPower": { "common": 5, "rare": 8, "epic": 14, "legendary": 30, "mythic": 75, "secret": 400 },
+  "variantMult": { "normal": 1, "golden": 2.5, "rainbow": 6 },
+  "shinyMult": 1.5,
+  "hugeMult": 12,
+  "hugeScale": 2.6,
+  "hugeAura": { "coins": 0.1, "damage": 0.1, "maxStacks": 3 },
+
+  "eggTierNames": ["", "Super ", "Mega ", "Ultra ", "Omega "],
+  "eggOdds": [
+    { "common": 70, "rare": 22, "epic": 6.4, "legendary": 1.5, "mythic": 0.1 },
+    { "common": 66, "rare": 24, "epic": 7.8, "legendary": 2.0, "mythic": 0.2 },
+    { "common": 62, "rare": 25.5, "epic": 9.4, "legendary": 2.8, "mythic": 0.3 },
+    { "common": 58, "rare": 27, "epic": 11, "legendary": 3.6, "mythic": 0.4 },
+    { "common": 54, "rare": 28, "epic": 13, "legendary": 4.5, "mythic": 0.5 }
+  ],
+  "luckAffects": ["epic", "legendary", "mythic"],
+  "secretChance": 0.00004,
+  "hugeChance": 0.0002,
+  "shinyChance": 0.008,
+  "goldenHatchChance": 0.015,
+  "luckExtraRollExponent": 0.5,
+
+  "starterPet": "clover_pup",
+  "startingCoins": 0,
+  "startingGems": 25,
+  "baseEquipSlots": 3,
+  "maxEquipSlots": 12,
+  "baseInventory": 60,
+  "maxInventory": 600,
+  "baseEnchantSlots": 1,
+  "baseWalkSpeed": 11,
+  "hatchCooldownSec": 2.0,
+  "hatchCounts": [1, 3, 8],
+
+  "teamBonusPerPlayer": 0.1,
+  "teamBonusMax": 0.5,
+
+  "petAttackRange": 55,
+  "interactRange": 9,
+  "petTravelDelaySec": 0.45,
+  "autoFarmUnlockRank": 2,
+  "autoFarmRange": 34,
+
+  "zoneBreakableBase": 18,
+  "zoneBreakablePerPlayer": 4,
+  "zoneBreakableMax": 34,
+  "spawnIntervalSec": 0.8,
+  "zoneIdleDespawnSec": 45,
+
+  "breakables": {
+    "coins_small": { "name": "Coin Pile", "model": "coin_pile", "scale": 0.8, "radius": 0.9, "hp": 10, "coins": 5, "gemChance": 0, "gems": 0, "itemChance": 0.0015, "enchantChance": 0 },
+    "coins_large": { "name": "Big Coin Pile", "model": "coin_pile", "scale": 1.3, "radius": 1.3, "hp": 35, "coins": 18, "gemChance": 0.03, "gems": 1, "itemChance": 0.003, "enchantChance": 0 },
+    "crate":       { "name": "Crate", "model": "crate", "scale": 1.0, "radius": 1.1, "hp": 70, "coins": 32, "gemChance": 0.25, "gems": 1, "itemChance": 0.006, "enchantChance": 0 },
+    "present":     { "name": "Present", "model": "present", "scale": 1.0, "radius": 1.0, "hp": 120, "coins": 30, "gemChance": 0.6, "gems": 3, "itemChance": 0.05, "enchantChance": 0.002 },
+    "safe":        { "name": "Safe", "model": "safe", "scale": 1.0, "radius": 1.1, "hp": 260, "coins": 120, "gemChance": 0.5, "gems": 4, "itemChance": 0.02, "enchantChance": 0.002 },
+    "chest":       { "name": "Treasure Chest", "model": "chest", "scale": 1.0, "radius": 1.3, "hp": 600, "coins": 300, "gemChance": 1.0, "gems": 8, "itemChance": 0.08, "enchantChance": 0.01 },
+    "boss_chest":  { "name": "Boss Chest", "model": "chest", "scale": 3.2, "radius": 3.6, "hp": 18000, "coins": 9000, "gemChance": 1.0, "gems": 120, "itemChance": 1.0, "enchantChance": 0.35, "hugeChance": 0.006 },
+    "comet":       { "name": "Comet", "model": "comet", "scale": 1.6, "radius": 1.8, "hp": 4000, "coins": 1500, "gemChance": 1.0, "gems": 200, "itemChance": 0.5, "enchantChance": 0.15, "hugeChance": 0.003 }
+  },
+
+  "golden": { "count": 5, "gemFee": 10 },
+  "rainbow": { "count": 5, "gemFee": 60, "requiresZone": 15 },
+  "enchantAltarCost": 150,
+  "questRerollCost": 5,
+
+  "maxTradePets": 20,
+  "tradeCountdownSec": 5,
+  "tradeRequestTimeoutSec": 30,
+  "tradeMinZone": 1,
+
+  "saveIntervalSec": 15,
+  "roomCapacity": 12,
+  "roomGraceSec": 90,
+  "roomIdleExpireHours": 72
+}

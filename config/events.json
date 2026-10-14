@@ -1,0 +1,6 @@
+{
+  "_doc": "Shared cooperative room events. All players in the room see and fight these together; rewards are split by damage contribution (plus the team bonus).",
+  "bossChest": { "everyNZones": 5, "alsoZones": [99], "respawnSec": 150, "firstSpawnDelaySec": 8 },
+  "comet": { "intervalSec": [240, 420], "lifetimeSec": 180, "warningSec": 10 },
+  "frenzy": { "intervalSec": [480, 720], "durationSec": 60, "coinMult": 2, "spawnMult": 1.6 }
+}

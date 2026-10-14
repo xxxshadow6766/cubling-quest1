@@ -1,0 +1,14 @@
+{
+  "_doc": "7-day daily reward cycle. Claimable once every cooldownHours. Missing more than streakResetHours resets the streak to day 1.",
+  "cooldownHours": 20,
+  "streakResetHours": 48,
+  "days": [
+    { "gems": 25, "items": { "boost_coins": 1 } },
+    { "gems": 40, "items": {} },
+    { "gems": 60, "items": { "boost_damage": 1 } },
+    { "gems": 80, "items": {} },
+    { "gems": 100, "items": { "boost_luck": 1 } },
+    { "gems": 150, "items": {}, "enchant": true },
+    { "gems": 300, "items": { "boost_coins": 2, "boost_luck": 2 } }
+  ]
+}

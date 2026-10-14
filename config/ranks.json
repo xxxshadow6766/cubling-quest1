@@ -1,0 +1,30 @@
+{
+  "_doc": "Ranks are earned with quest stars (XP). 'xp' is the stars needed to go from this rank to the next. Rewards are granted when you REACH that rank.",
+  "ranks": [
+    { "rank": 1, "name": "Newbie", "xp": 3, "rewards": {} },
+    { "rank": 2, "name": "Explorer", "xp": 4, "rewards": { "gems": 50, "unlock": "autoFarm" } },
+    { "rank": 3, "name": "Collector", "xp": 5, "rewards": { "gems": 75, "slots": 1 } },
+    { "rank": 4, "name": "Trainer", "xp": 6, "rewards": { "gems": 100, "items": { "boost_coins": 1 } } },
+    { "rank": 5, "name": "Adventurer", "xp": 7, "rewards": { "gems": 150, "items": { "boost_luck": 1 } } },
+    { "rank": 6, "name": "Treasure Seeker", "xp": 8, "rewards": { "gems": 200, "slots": 1 } },
+    { "rank": 7, "name": "Pathfinder", "xp": 9, "rewards": { "gems": 250, "items": { "boost_damage": 2 } } },
+    { "rank": 8, "name": "Egg Expert", "xp": 10, "rewards": { "gems": 300, "items": { "boost_luck": 2 } } },
+    { "rank": 9, "name": "Ranger", "xp": 11, "rewards": { "gems": 350 } },
+    { "rank": 10, "name": "Pet Pro", "xp": 12, "rewards": { "gems": 500, "slots": 1, "enchantSlots": 1 } },
+    { "rank": 11, "name": "Champion", "xp": 13, "rewards": { "gems": 600 } },
+    { "rank": 12, "name": "Hero", "xp": 14, "rewards": { "gems": 700, "items": { "boost_coins": 3 } } },
+    { "rank": 13, "name": "Vanguard", "xp": 15, "rewards": { "gems": 800 } },
+    { "rank": 14, "name": "Elite", "xp": 16, "rewards": { "gems": 900, "items": { "boost_luck": 3 } } },
+    { "rank": 15, "name": "Master", "xp": 17, "rewards": { "gems": 1200, "slots": 1 } },
+    { "rank": 16, "name": "Grandmaster", "xp": 18, "rewards": { "gems": 1400 } },
+    { "rank": 17, "name": "Warden", "xp": 19, "rewards": { "gems": 1600, "items": { "boost_damage": 3 } } },
+    { "rank": 18, "name": "Sage", "xp": 20, "rewards": { "gems": 1800 } },
+    { "rank": 19, "name": "Paragon", "xp": 21, "rewards": { "gems": 2000 } },
+    { "rank": 20, "name": "Legend", "xp": 22, "rewards": { "gems": 3000, "slots": 1, "enchantSlots": 1 } },
+    { "rank": 21, "name": "Mythic", "xp": 24, "rewards": { "gems": 3500 } },
+    { "rank": 22, "name": "Celestial", "xp": 26, "rewards": { "gems": 4000 } },
+    { "rank": 23, "name": "Cosmic", "xp": 28, "rewards": { "gems": 4500 } },
+    { "rank": 24, "name": "Eternal", "xp": 30, "rewards": { "gems": 5000 } },
+    { "rank": 25, "name": "Cubling Royalty", "xp": 999999, "rewards": { "gems": 10000 } }
+  ]
+}

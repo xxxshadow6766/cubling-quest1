@@ -1,0 +1,19 @@
+{
+  "_doc": "Achievements track lifetime stats. Each tier is granted automatically with its gem reward.",
+  "achievements": [
+    { "id": "breaker", "name": "Smash Hit", "icon": "💥", "stat": "breakables", "desc": "Break {n} breakables", "tiers": [50, 500, 5000, 50000, 500000], "gems": [20, 60, 200, 600, 2000] },
+    { "id": "hatcher", "name": "Egg Enthusiast", "icon": "🥚", "stat": "eggs", "desc": "Hatch {n} eggs", "tiers": [10, 100, 1000, 10000, 50000], "gems": [20, 60, 200, 600, 2000] },
+    { "id": "explorer", "name": "Explorer", "icon": "🗺️", "stat": "maxZone", "desc": "Reach area {n}", "tiers": [5, 15, 30, 60, 99], "gems": [25, 80, 250, 800, 3000] },
+    { "id": "collector", "name": "Collector", "icon": "📖", "stat": "indexCount", "desc": "Discover {n} pet species", "tiers": [10, 25, 50, 75, 100], "gems": [30, 100, 300, 900, 3000] },
+    { "id": "rich", "name": "Coin Hoarder", "icon": "🪙", "stat": "coinsEarned", "desc": "Earn {n} coins in total", "tiers": [10000, 10000000, 10000000000, 100000000000000, 1e18], "gems": [20, 80, 250, 800, 2500] },
+    { "id": "midas", "name": "Midas Touch", "icon": "✨", "stat": "goldenMade", "desc": "Make {n} Golden pets", "tiers": [1, 10, 50, 200], "gems": [30, 100, 300, 1000] },
+    { "id": "rainbow", "name": "Over the Rainbow", "icon": "🌈", "stat": "rainbowMade", "desc": "Make {n} Rainbow pets", "tiers": [1, 10, 50], "gems": [80, 300, 1200] },
+    { "id": "trader", "name": "Trusted Trader", "icon": "🤝", "stat": "trades", "desc": "Complete {n} trades", "tiers": [1, 10, 50], "gems": [30, 100, 400] },
+    { "id": "team", "name": "Team Player", "icon": "👥", "stat": "coopBreaks", "desc": "Break {n} breakables together with friends", "tiers": [25, 250, 2500, 25000], "gems": [30, 100, 400, 1500] },
+    { "id": "treasure", "name": "Treasure Hunter", "icon": "🧰", "stat": "chests", "desc": "Break {n} safes or chests", "tiers": [10, 100, 1000, 10000], "gems": [20, 80, 300, 1000] },
+    { "id": "boss", "name": "Boss Buster", "icon": "👑", "stat": "bossChests", "desc": "Help destroy {n} Boss Chests", "tiers": [1, 10, 100], "gems": [50, 250, 1200] },
+    { "id": "reborn", "name": "Reborn", "icon": "🔄", "stat": "rebirths", "desc": "Rebirth {n} times", "tiers": [1, 2, 3, 5, 10], "gems": [100, 300, 800, 1500, 4000] },
+    { "id": "huge", "name": "Huge Deal", "icon": "🦖", "stat": "hugeHatched", "desc": "Obtain {n} Huge pets", "tiers": [1, 3, 10], "gems": [500, 1500, 5000] },
+    { "id": "star", "name": "Rising Star", "icon": "⭐", "stat": "rank", "desc": "Reach rank {n}", "tiers": [5, 10, 15, 20, 25], "gems": [50, 150, 400, 1000, 3000] }
+  ]
+}

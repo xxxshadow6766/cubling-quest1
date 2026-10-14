@@ -1,0 +1,19 @@
+{
+  "_doc": "Enchant books are equipped into enchant slots (1 base, more from rank 10/20 and Rebirth II). Effects of equipped books add together. Books drop from chests, boss chests and comets, or can be bought at the Enchant Altar for gems (random, weighted by 'w').",
+  "books": [
+    { "id": "coins_1", "name": "Coins I", "icon": "🪙", "effect": "coins", "value": 0.15, "w": 30 },
+    { "id": "coins_2", "name": "Coins II", "icon": "🪙", "effect": "coins", "value": 0.3, "w": 9 },
+    { "id": "coins_3", "name": "Coins III", "icon": "🪙", "effect": "coins", "value": 0.6, "w": 2 },
+    { "id": "strength_1", "name": "Strength I", "icon": "💪", "effect": "damage", "value": 0.15, "w": 30 },
+    { "id": "strength_2", "name": "Strength II", "icon": "💪", "effect": "damage", "value": 0.3, "w": 9 },
+    { "id": "strength_3", "name": "Strength III", "icon": "💪", "effect": "damage", "value": 0.6, "w": 2 },
+    { "id": "lucky_1", "name": "Lucky Eggs I", "icon": "🍀", "effect": "luck", "value": 0.2, "w": 25 },
+    { "id": "lucky_2", "name": "Lucky Eggs II", "icon": "🍀", "effect": "luck", "value": 0.4, "w": 7 },
+    { "id": "lucky_3", "name": "Lucky Eggs III", "icon": "🍀", "effect": "luck", "value": 0.8, "w": 1.5 },
+    { "id": "treasure_1", "name": "Treasure Hunter I", "icon": "🧰", "effect": "items", "value": 0.5, "w": 15 },
+    { "id": "treasure_2", "name": "Treasure Hunter II", "icon": "🧰", "effect": "items", "value": 1.0, "w": 4 },
+    { "id": "gems_1", "name": "Gem Seeker I", "icon": "💎", "effect": "gems", "value": 0.25, "w": 15 },
+    { "id": "gems_2", "name": "Gem Seeker II", "icon": "💎", "effect": "gems", "value": 0.5, "w": 4 },
+    { "id": "swift_1", "name": "Swift Feet", "icon": "👟", "effect": "speed", "value": 0.2, "w": 12 }
+  ]
+}
